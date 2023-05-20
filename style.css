@@ -1,0 +1,53 @@
+body {
+    background-image: linear-gradient(0deg ,#BEC4FE, #FFF7FA);
+}
+
+.container-lg {
+    height: 100vh;
+}
+
+.calc {
+    width: 500px;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.calc__heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #222260;
+}
+
+.operations {
+    width: 50%;
+}
+
+.form__input label {
+    color:  #222260;
+}
+
+.form__input .form-control {
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+
+.form__input .form-control:focus {
+    box-shadow: none;
+    background-color: #fff;
+    border-color: #F56692;
+}
+
+.form__input i {
+    font-size: 20px;
+}
+
+input[type=radio]:checked ~ label {
+    color: #F56692;
+}
+
+@media screen and (max-width: 576.98px) {
+    .operations {
+        width: 100%;
+    }
+}
